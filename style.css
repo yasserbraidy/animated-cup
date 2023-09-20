@@ -108,4 +108,15 @@ body{
     padding: 0 20px;
 }
 
+.vapour span{
+    position:relative ;
+    bottom: 50px;
+    display: block;
+    margin: 0 2px 50px;
+    min-width: 8px;
+    height: 120px;
+    background: white;
+    border-radius: 50%;
+    animation: animate 5s line infinite;
+}
 
