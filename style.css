@@ -31,3 +31,13 @@ body{
     background: linear-gradient(to right, #f9f9f9, #d9d9d9);
     border-radius: 50%;
 }
+.circle{
+    position: absolute;
+    height: 50px;
+    width: calc(100% - 20px);
+    top: 5px;
+    left: 10px;
+    background: linear-gradient(to right, red, #d9d9d9);
+    border-radius: 50%;
+
+}
