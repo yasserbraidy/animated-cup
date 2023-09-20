@@ -117,6 +117,23 @@ body{
     height: 120px;
     background: white;
     border-radius: 50%;
-    animation: animate 5s line infinite;
+    animation: animate 5s linear infinite;
 }
 
+@keyframes animate{
+    0%{
+        transform: translateY(0) scaleX(1);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translateY(-150px) scaleX(5);
+        opacity: 1;
+
+    }
+
+    100%{
+        transform: translateY(-300px) scaleX(10);
+        opacity: 0;
+    }
+}
