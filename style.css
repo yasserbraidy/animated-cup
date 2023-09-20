@@ -52,3 +52,16 @@ body{
     border-radius: 50%;
 
 }
+
+.handle{
+    position: absolute;
+    right: -70px ;
+    top: 25px;
+    height: 180px;
+    width: 160px;
+    border :25px solid #dcdcdc;
+    border-left: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-radius :50%;
+    transform: rotate(42deg);
+}
