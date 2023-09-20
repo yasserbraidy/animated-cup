@@ -8,12 +8,18 @@ body{
     justify-content: center;
     align-items:center ;
     min-height: 100vh;
-    background-color: #607d8b;
+    /* background-color: Black; */
+    background: url('./Images/bg.avif');
+    background-repeat: no-repeat; /* This will ensure the background image doesn't repeat */
+
+    background-size: cover; /* This will make the background image cover the entire element */
+
+    background-position: center;
 }
 
 .container{
     position: relative;
-    top: 50px;
+    top: 130px;
 
 }
 .cup{
@@ -118,6 +124,9 @@ body{
     background: white;
     border-radius: 50%;
     animation: animate 5s linear infinite;
+    opacity: 0;
+    filter: blur(8px);
+    animation-delay: calc(var(--i) * -0.5s);
 }
 
 @keyframes animate{
